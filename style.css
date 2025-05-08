@@ -21,14 +21,23 @@ body {
     background-color: var(--background);
 }
 
+.contenedor {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6em;
+}
+
+/* header */
 .header {
     display: flex;
-    margin: auto;
     top: 0;
     left: 0;
-    padding: 10px 100px;
+    padding: 10px 0;
     justify-content: space-between;
-    min-height: 140px;
+    min-height: 160px;
 }
 
 .header .logo {
@@ -41,28 +50,93 @@ body {
     transform: scale(1.01);
 }
 
-.header .social-media {
+.header .header-social-media {
     display: flex;
     align-items: center;
     list-style: none;
 }
 
-.header .social-media li {
+.header .header-social-media li {
     padding: 10px;
 }
 
-.header .social-media li a {
+.header .header-social-media li a {
     color: var(--primary);
     font-size: 2.5em;
     transition: 0.3s;
 }
 
-.header .social-media li a:hover {
+.header .header-social-media li a:hover {
     color: var(--button);
 }
 
+/* footer */
+.footer {
+    /* background-color: gainsboro; ELIMINAR */
+    
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    min-height: 150px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer .footer-links {
+    /* background-color:antiquewhite; ELIMINAR */
+
+    display: grid;
+    justify-content: center;
+    padding: 0 20px;
+    width: 33%;
+}
+
+.footer .footer-links li {
+    padding: 10px 0;
+}
 
 
+.footer .footer-links li a {
+    text-decoration: none;
+}
+
+.footer .footer-social-media {
+    /* background-color:azure; ELIMINAR */
+
+    width: 33%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footer-social-media li {
+    padding: 10px;
+}
+
+.footer .footer-social-media li a {
+    color: var(--primary);
+    font-size: 2.5em;
+    transition: 0.3s;
+}
+
+.footer .footer-social-media li a:hover {
+    color: var(--button);
+}
+
+.footer .copyright {
+    /* background-color:beige; ELIMINAR */
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .copyright p {
+    text-align: center;
+    color: var(--dark-text);
+}
 
 
 
