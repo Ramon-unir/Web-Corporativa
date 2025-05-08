@@ -101,38 +101,36 @@ body {
 
 
 .navbar {
-    position: relative;
-    display: flex; 
     background: linear-gradient(
-    #FFFFF2 0%, #084C61 45%
+    var(--clear-text) 5%,
+    var(--primary) 55%
     );
-    align-items: center;
-    justify-content: space-between;
+    height: 60px;
 }
 
-.contenedor .navbar {
+.navbar ul{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.navbar li{
+    justify-content:space-between;
+    margin: 60px;
     list-style: none;
 }
 
-.contenedor .navbar li{
-    padding: 5px 20px;
-    
-}
-
-
-
-.contenedor .navbar ul li a{
+.navbar li a{
     text-decoration: none;
-    color: var(--clear-text);
-    font-weight: 600;
-    padding: 100px;
-    transition: 0.3s;
-    font-size: 0.9rem;
     text-transform: uppercase;
-    
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--clear-text);
+      
 }
 
-.contenedor .navbar li a:hover{
+.navbar li a:hover{
     color: var(--secondary);
-    transition: 0.3s;
+    transition: 0.3s; 
 }
