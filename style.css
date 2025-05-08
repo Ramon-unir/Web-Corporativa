@@ -22,16 +22,45 @@ body {
 }
 
 .header {
+    display: flex;
     margin: auto;
     top: 0;
     left: 0;
-    padding: 40px 100px;
+    padding: 10px 100px;
+    justify-content: space-between;
+    min-height: 140px;
 }
 
 .header .logo {
     height: 128px;
-    cursor: pointer;
+    transition: all 0.3s;
 }
+
+.header .logo:hover {
+    height: 133px;
+    transform: scale(1.01);
+}
+
+.header .social-media {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.header .social-media li {
+    padding: 10px;
+}
+
+.header .social-media li a {
+    color: var(--primary);
+    font-size: 2.5em;
+    transition: 0.3s;
+}
+
+.header .social-media li a:hover {
+    color: var(--button);
+}
+
 
 
 
