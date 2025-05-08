@@ -141,13 +141,15 @@ body {
     position: absolute;
     display: flex;
     align-items: center;
-    margin-left: 5%;
+    margin: auto;
+    padding: 10px 100px;
 }
 
 .navbar li{
     justify-content:space-between;
     margin: 60px;
     list-style: none;
+    padding: 50px;
 }
 
 .navbar li a{
