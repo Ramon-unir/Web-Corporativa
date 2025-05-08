@@ -88,19 +88,25 @@ body {
     /* background-color:antiquewhite; ELIMINAR */
 
     display: grid;
-    justify-content: center;
-    padding: 0 20px;
+    text-align: center; 
     width: 33%;
 }
 
 .footer .footer-links li {
+    list-style: circle inside;
+    transition: 0.3s;
     padding: 10px 0;
+    width: 100%;
 }
 
+.footer .footer-links li:hover {
+    margin-left: 8px;
+}
 
 .footer .footer-links li a {
     text-decoration: none;
 }
+
 
 .footer .footer-social-media {
     /* background-color:azure; ELIMINAR */
