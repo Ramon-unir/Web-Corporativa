@@ -131,7 +131,6 @@ body {
 
 
 /* content */
-
 .content {
     /* background-color:aliceblue; BORRAR */
 
@@ -143,34 +142,99 @@ body {
 }
 
 .section {
-    background-color: bisque; /*BORRAR*/
-    
+    /* background-color: bisque; BORRAR */
+    color: var(--dark-text);
     align-content: center;
     width: 64%;
 }
 
-.section .section-header h1{
-    padding-bottom: 10px;
+.section .section-header h1 {
+    font-family: 'Montserrat Alternates';
+    font-size: 2.7em;
+    padding-bottom: 20px;
+    text-transform: uppercase;
 }
 
-.aside {
-    background-color:beige; /*BORRAR*/
+.section .section-article p {
+    font-size: 1.2em;
+    text-align: justify;
+}
 
+.section .section-footer {
+    margin-top: 50px;
+}
+
+.section .section-footer ul {
+    display: flex;
+}
+
+
+.section .section-footer li {
+    list-style: none;
+}
+
+.section .section-footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--clear-text);
+    background: var(--secondary);
+    padding: 15px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.section .section-footer a:hover {
+    background: var(--button);
+}
+
+
+
+.aside {
+    /* background-color:beige; BORRAR */
+
+    display: flex;
     align-content: center;
     width: 33%;
 }
 
 .aside ul {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
 .aside li {
     list-style: none;
-    padding: 1.5em;
+    flex: 1;
+    align-content: center;
 }
+
+.aside li a {
+    text-decoration: none;
+}
+
+.aside li a h2{
+    font-family: 'Montserrat Alternates';
+    text-decoration: none;
+    color: var(--dark-text);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.aside li a h2:hover{
+    text-decoration: none;
+    color: var(--button);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
 .aside li a img {
-    height: 128px;
+    width: 85%;
 }
+
 
 
 
