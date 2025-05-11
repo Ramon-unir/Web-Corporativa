@@ -91,6 +91,7 @@ body {
 }
 
 
+
 /* navbar */
 .navbar {
     background: linear-gradient(
@@ -127,20 +128,21 @@ body {
     transition: 0.3s;
 }
 
+
+
 /* content */
 .content {
-    /* background-color:aliceblue; BORRAR */
-
     display: flex;
     justify-content: space-between;
     min-height: var(--content-height);
     max-width:var(--max-content-with);
     margin: 100px 10px;
-
 }
 
+
+
+/* section */
 .section {
-    /* background-color: bisque; BORRAR */
     color: var(--dark-text);
     width: 64%;
 }
@@ -149,21 +151,8 @@ body {
     font-family: 'Montserrat Alternates';
     font-size: 2.7em;
     text-align: center;
-    /* padding-bottom: 20px; */
     padding-bottom: 3rem;
     text-transform: uppercase;
-}
-
-.section .section-article p {
-    font-size: 1.2em;
-    text-align: justify;
-}
-
-/*-- AQUI VA LA IMAGEN DEL QUIENES SOMOS -- */
-.section img{
-    margin: 50px 10px;
-    height: 333px;
-    
 }
 
 .section .section-footer {
@@ -179,30 +168,10 @@ body {
     list-style: none;
 }
 
-.section .section-footer a {
-    display: flex;
-    width: fit-content;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: var(--clear-text);
-    background: var(--secondary);
-    padding: 15px 20px;
-    margin-left: 10px;
-    border-radius: 10px;
-    letter-spacing: 2px;
-    transition: 0.5s;
-}
-
-.section .section-footer a:hover {
-    background: var(--button);
-}
 
 
-
+/* aside */
 .aside {
-    /* background-color:beige; BORRAR */
-
     display: flex;
     width: 33%;
 }
@@ -216,7 +185,6 @@ body {
 .aside li {
     list-style: none;
     flex: 1;
-    /* align-content: center; */
 }
 
 .aside li a {
@@ -241,6 +209,8 @@ body {
 .aside li a img {
     width: 85%;
 }
+
+
 
 /* footer */
 .footer {    
@@ -312,6 +282,35 @@ body {
     color: var(--dark-text);
 }
 
+
+
+/* index_section */
+.index_section .section-article p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.index_section .section-footer a {
+    display: flex;
+    width: fit-content;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--clear-text);
+    background: var(--secondary);
+    padding: 15px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.index_section .section-footer a:hover {
+    background: var(--button);
+}
+
+
+
 /* contacto_section */
 .contacto_section form {
     color: var(--dark-text);
@@ -351,6 +350,9 @@ body {
 
 
 
-
-
+/* QuienesSomos_section */
+.QuienesSomos_section img{
+    margin: 50px 10px;
+    height: 333px;
+}
 
