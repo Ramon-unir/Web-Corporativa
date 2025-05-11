@@ -208,6 +208,7 @@ body {
 
 .aside li a img {
     width: 85%;
+    border-radius: 10px;
 }
 
 
@@ -313,6 +314,65 @@ body {
 
 
 
+/* QuienesSomos_section */
+.QuienesSomos_section img{
+    margin: 50px 10px;
+    height: 333px;
+}
+
+
+
+/* actuacion_section */
+.actuacion_section .section-article h2 {
+    font-size: 1.8em;
+    margin-bottom: 1rem;
+}
+
+.actuacion_section .section-article li {
+    list-style: none;
+    margin-bottom: 4rem;
+}
+
+.actuacion_section .section-article p {
+    font-size: 1.2em;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+
+
+/* noticias-section */
+.noticias-section .section-article ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.noticias-section .section-article li {
+    list-style: none;
+}
+
+.noticias-section .section-article h2 {
+    font-size: 1.8em;
+    margin-bottom: 1rem;
+}
+
+.noticias-section img {
+    display: flex;
+    text-align: center;
+    width: 95%;
+    margin: 1rem auto;
+    border-radius: 12px;
+}
+
+.noticias-section .section-article p {
+    font-size: 1.2em;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+
+
 /* contacto_section */
 .contacto_section form {
     color: var(--dark-text);
@@ -349,31 +409,3 @@ body {
 .contacto_section form .boton-enviar:hover {
     background: var(--button);
 }
-
-
-
-/* QuienesSomos_section */
-.QuienesSomos_section img{
-    margin: 50px 10px;
-    height: 333px;
-}
-
-
-
-/* actuacion_section */
-.actuacion_section .section-article h2 {
-    font-size: 1.8em;
-    margin-bottom: 1rem;
-}
-
-.actuacion_section .section-article li {
-    list-style: none;
-    margin-bottom: 4rem;
-}
-
-.actuacion_section .section-article p {
-    font-size: 1.2em;
-    text-align: justify;
-    margin-bottom: 1rem;
-}
-
