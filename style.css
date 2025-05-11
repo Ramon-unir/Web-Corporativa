@@ -357,7 +357,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.noticias-section img {
+.noticias-section .section-article img {
     display: flex;
     text-align: center;
     width: 95%;
