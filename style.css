@@ -284,29 +284,31 @@ body {
 
 
 
-/* index_section */
-.index_section .section-article p {
-    font-size: 1.2em;
-    text-align: justify;
-}
-
-.index_section .section-footer a {
+/* contacto_button */
+.contacto_button {
     display: flex;
     width: fit-content;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--clear-text);
     background: var(--secondary);
     padding: 15px 20px;
-    margin-left: 10px;
     border-radius: 10px;
     letter-spacing: 2px;
     transition: 0.5s;
 }
 
-.index_section .section-footer a:hover {
+.contacto_button:hover {
     background: var(--button);
+}
+
+
+
+/* index_section */
+.index_section .section-article p {
+    font-size: 1.2em;
+    text-align: justify;
 }
 
 
@@ -366,10 +368,12 @@ body {
 
 .actuacion_section .section-article li {
     list-style: none;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .actuacion_section .section-article p {
     font-size: 1.2em;
     text-align: justify;
+    margin-bottom: 1rem;
 }
+
