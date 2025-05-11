@@ -148,7 +148,9 @@ body {
 .section .section-header h1 {
     font-family: 'Montserrat Alternates';
     font-size: 2.7em;
-    padding-bottom: 20px;
+    text-align: center;
+    /* padding-bottom: 20px; */
+    padding-bottom: 3rem;
     text-transform: uppercase;
 }
 
@@ -240,16 +242,6 @@ body {
     width: 85%;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* footer */
 .footer {    
     position: absolute;
@@ -318,6 +310,43 @@ body {
 .footer .copyright p {
     text-align: center;
     color: var(--dark-text);
+}
+
+/* contacto_section */
+.contacto_section form {
+    color: var(--dark-text);
+    padding: 0 2rem;
+    max-width: 35rem;
+    margin: auto;
+}
+
+.contacto_section form input,
+.contacto_section form textarea,
+.contacto_section form select {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--dark-text);
+    border-radius: 8px;
+    padding: 0.8rem;
+    margin: 0.5rem 0 1rem;
+    cursor: pointer;
+
+}
+
+.contacto_section form textarea {
+    height: 10rem;
+}
+
+.contacto_section form .boton-enviar {
+    background-color: var(--secondary);
+    color: var(--clear-text);
+    border: none;
+    max-width: 50%;
+    margin-top: 60px;
+}
+
+.contacto_section form .boton-enviar:hover {
+    background: var(--button);
 }
 
 
