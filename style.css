@@ -46,7 +46,7 @@ body {
     min-width: fit-content;
     min-height: 100vh;
     margin: auto;
-    /* padding-bottom: var(--footer-height); */
+    padding-bottom: var(--footer-height);
 }
 
 
@@ -127,13 +127,6 @@ body {
     transition: 0.3s;
 }
 
-
-
-
-
-
-
-
 /* content */
 .content {
     /* background-color:aliceblue; BORRAR */
@@ -142,7 +135,7 @@ body {
     justify-content: space-between;
     min-height: var(--content-height);
     max-width:var(--max-content-with);
-    margin: 100px 10px 300px;
+    margin: 100px 10px;
 
 }
 
