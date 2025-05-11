@@ -356,3 +356,20 @@ body {
     height: 333px;
 }
 
+
+
+/* actuacion_section */
+.actuacion_section .section-article h2 {
+    font-size: 1.8em;
+    margin-bottom: 1rem;
+}
+
+.actuacion_section .section-article li {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.actuacion_section .section-article p {
+    font-size: 1.2em;
+    text-align: justify;
+}
